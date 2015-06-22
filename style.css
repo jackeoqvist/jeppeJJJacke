@@ -23,6 +23,7 @@ background-size: cover;
 	height: 52px;
 	position: fixed;
 	width: 100%;
+	float: center-top;
 }
 
 #myCarousel {
@@ -36,3 +37,4 @@ background-size: cover;
 	width: 550px;
 	height: 500px;
 }
+
