@@ -1,0 +1,24 @@
+html { 
+background: url(http://umehotel.se/sites/umehotel.se/files/styles/fullsize/public/ume_fasad_natt.jpg?itok=GG-e2Qu7) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#fakta {
+	float: left;
+	width: 700px;
+	margin-left: 40px;
+	margin-top: 80px;
+	border-right: red 2px solid; 
+	padding-right: 20px;
+	color: white;
+	background-color: black; 
+}
+
+#navbar {
+	height: 50px;
+	position: fixed;
+	width: 100%;
+}
