@@ -4,6 +4,7 @@ background: url(http://umehotel.se/sites/umehotel.se/files/styles/fullsize/publi
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+
 }
 
 #fakta {
@@ -21,4 +22,5 @@ background-size: cover;
 	height: 50px;
 	position: fixed;
 	width: 100%;
+
 }
