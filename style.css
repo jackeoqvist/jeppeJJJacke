@@ -4,6 +4,7 @@ background: url(http://umehotel.se/sites/umehotel.se/files/styles/fullsize/publi
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+font-family: 'Slabo 27px', serif;
 }
 
 #fakta {
@@ -19,6 +20,7 @@ background-size: cover;
 
 }
 
+
 #navbar {
 	height: 52px;
 	position: fixed;
@@ -29,7 +31,7 @@ background-size: cover;
 #myCarousel {
 	float: right;
 	margin-right: 20px;
-	margin-top: 100px;
+	margin-top: 80px;
 	
 }
 
