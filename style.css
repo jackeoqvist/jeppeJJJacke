@@ -5,6 +5,7 @@ background: url(http://umehotel.se/sites/umehotel.se/files/styles/fullsize/publi
 -o-background-size: cover;
 background-size: cover;
 font-family: 'Slabo 27px', serif;
+
 }
 
 #fakta {
@@ -17,6 +18,11 @@ font-family: 'Slabo 27px', serif;
 	background-color: rgba(0, 0, 0, 0.5); 
 	padding-left: 10px;
 	border-radius: 10px;
+	text-align: center;
+
+}
+
+#fakta h1 {
 
 }
 
@@ -38,5 +44,6 @@ font-family: 'Slabo 27px', serif;
 #bilder {
 	width: 550px;
 	height: 500px;
+
 }
 
