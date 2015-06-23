@@ -1,6 +1,6 @@
 var feeling = function(){
 	var answer = prompt("Hi say anything something might happen")
-	if (answer === "Great") {
+	if (answer === "great") {
 		document.getElementById("demo").innerHTML = "Greattastic"
 	};
 	if (answer === "date") {
