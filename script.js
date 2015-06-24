@@ -65,4 +65,16 @@ var feeling = function(){
 	if (answer === "rmnt") {
 		document.getElementById("demo").innerHTML = "<a href=http://clanremnant.weebly.com/>ReMNanT</a>"
 	};
+
+	if (answer === "soup") {
+		var div = document.getElementById("iframe")
+		var iframe = document.createElement('iframe')
+	
+		iframe.src = "https://www.youtube.com/embed/4kqbKEqzsAI";
+		iframe.width = 500;
+		iframe.height = 500;
+		iframe.allowfullscreen = true;
+		div.appendChild(iframe);
+
+	};
 };
