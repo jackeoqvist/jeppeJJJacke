@@ -71,3 +71,8 @@ font-family: 'Slabo 27px', serif, sans-serif;
 	margin-bottom: 50px;
 	text-align: left;
 }
+
+#klimatBild {
+	border: 2px purple solid;
+	margin-bottom: 20px;
+}
