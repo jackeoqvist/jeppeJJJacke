@@ -77,4 +77,12 @@ var feeling = function(){
 		div.appendChild(iframe);
 
 	};
+
+	if (answer === "blarg") {
+		var div = document.getElementById("demo");
+		var img = document.createElement('img');
+
+		img.src = 'http://33.media.tumblr.com/tumblr_m9y2vaYRJ81r9yglbo1_r1_500.gif';
+  		div.appendChild(img);
+	}
 };
