@@ -61,4 +61,8 @@ var feeling = function(){
 		div.appendChild(iframe);
 
 	};
+
+	if (answer === "rmnt") {
+		document.getElementById("demo").innerHTML = "<a href=http://clanremnant.weebly.com/>ReMNanT</a>"
+	};
 };
