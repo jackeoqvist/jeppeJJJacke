@@ -20,7 +20,7 @@ font-family: 'Slabo 27px', serif, sans-serif;
 	border-radius: 10px;
 	text-align: center;
 	position: auto;
-
+	margin-bottom: 50px;
 }
 
 #fakta h1 {
@@ -69,7 +69,6 @@ font-family: 'Slabo 27px', serif, sans-serif;
 }
 
 #lista {
-	margin-bottom: 50px;
 	text-align: left;
 }
 

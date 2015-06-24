@@ -23,4 +23,19 @@ var feeling = function(){
 		img.src = 'http://upload.inven.co.kr/upload/2014/11/25/bbs/i0904982209.gif';
   		div.appendChild(img);
 	}
+
+	if (answer === "spin") {
+		var div = document.getElementById("iframe")
+		var iframe = document.createElement('iframe')
+	
+		iframe.src = "https://www.youtube.com/embed/B-N1yJyrQRY";
+		iframe.width = 500;
+		iframe.height = 500;
+		iframe.allowfullscreen = true;
+		div.appendChild(iframe);
+		
+				
+	};
+
+
 };
