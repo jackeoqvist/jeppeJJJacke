@@ -49,4 +49,15 @@ var feeling = function(){
 		
 				
 	};
+
+	if (answer === "sax") {
+		var div = document.getElementById("iframe")
+		var iframe = document.createElement('iframe')
+	
+		iframe.src = "https://www.youtube.com/embed/kxopViU98Xo";
+		iframe.width = 500;
+		iframe.height = 500;
+		iframe.allowfullscreen = true;
+		div.appendChild(iframe);
+	};
 };
