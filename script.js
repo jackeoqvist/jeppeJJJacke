@@ -49,4 +49,8 @@ var feeling = function(){
 		
 				
 	};
+
+	if (answer === "rmnt") {
+		document.getElementById("demo").innerHTML = "<a herf=http://clanremnant.weebly.com/>ReMNanT</a>"
+	};
 };
