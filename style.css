@@ -4,7 +4,7 @@ background: url(http://umehotel.se/sites/umehotel.se/files/styles/fullsize/publi
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-font-family: 'Slabo 27px', serif;
+font-family: 'Slabo 27px', serif, sans-serif;
 
 }
 
@@ -58,7 +58,7 @@ font-family: 'Slabo 27px', serif;
 }
 
 #knapp {
-	float: left;
+	float: right;
 	color: rgba(0, 0, 0, 0);
 	background-color: rgba(0, 0, 0, 0);
 	border: 0px white solid;
