@@ -37,5 +37,16 @@ var feeling = function(){
 				
 	};
 
-
+	if (answer === "BEES") {
+		var div = document.getElementById("iframe")
+		var iframe = document.createElement('iframe')
+	
+		iframe.src = "https://www.youtube.com/embed/-1GadTfGFvU";
+		iframe.width = 500;
+		iframe.height = 500;
+		iframe.allowfullscreen = true;
+		div.appendChild(iframe);
+		
+				
+	};
 };
