@@ -16,4 +16,11 @@ var feeling = function(){
   		div.appendChild(img);
 	}
 
+	if (answer === "mario party") {
+		var div = document.getElementById("demo");
+		var img = document.createElement('img');
+
+		img.src = 'http://upload.inven.co.kr/upload/2014/11/25/bbs/i0904982209.gif';
+  		div.appendChild(img);
+	}
 };
