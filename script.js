@@ -8,7 +8,7 @@ var feeling = function(){
 		document.getElementById("demo").innerHTML = Date();
 	};
 	
-	if (answer === "DLC") {
+	if (answer === "dlc") {
 		var div = document.getElementById("demo");
 		var img = document.createElement('img');
 
@@ -37,7 +37,7 @@ var feeling = function(){
 				
 	};
 
-	if (answer === "BEES") {
+	if (answer === "bees") {
 		var div = document.getElementById("iframe")
 		var iframe = document.createElement('iframe')
 	
