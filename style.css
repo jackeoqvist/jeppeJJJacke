@@ -9,46 +9,32 @@ font-family: 'Slabo 27px', serif, sans-serif;
 }
 
 #fakta {
-	float: left;
-	width: 650px;
-	margin-left: 40px;
-	margin-top: 80px; 
-	padding-right: 20px;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.5); 
-	padding-left: 10px;
+	padding-left: 20px;
 	border-radius: 10px;
 	text-align: center;
-	position: auto;
-	margin-bottom: 50px;
-}
-
-#fakta h1 {
-
+	margin-bottom: 5%;
+	margin-left: 10px;
+	padding-right: 20px;
 }
 
 
-#navbar {
-	height: 52px;
-	position: fixed;
+#navbar-header {
 	width: 100%;
-	float: center-top;
 }
+
+
 
 #myCarousel {
-	float: right;
-	margin-right: 20px;
-	margin-top: 80px;
 	position: fixed;
-	margin-left: 53%;
-	
 }
 
 #bilder {
-	width: 600;
+	width: 600px;
 	height: 500px;
-
 }
+	
 
 .footer{
   position: fixed;
@@ -75,4 +61,13 @@ font-family: 'Slabo 27px', serif, sans-serif;
 #klimatBild {
 	border: 2px purple solid;
 	margin-bottom: 20px;
+	width: 580px;
+}
+
+#row1 {
+	margin-top: 75px;
+}
+
+h1 {
+	margin-top: 0px;
 }

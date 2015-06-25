@@ -12,13 +12,15 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="favicon.ico">
 	</head>
 	
 
   <body>
 
-  <!-- Navbar to line 60 -->
-	<nav class="navbar navbar-default" id="navbar">
+
+      <!-- Navbar to line 60 -->
+    	<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -28,15 +30,25 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Umeå Fakta</a>
+      <a class="navbar-brand">Umeå Fakta</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="historia.html"> Historia</a></li>
-        <li class="active"><a href="klimat.html"> Klimat<span class="sr-only">(current)</span></a></li>
+        <li><a href="index.html">Home </a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li class="active"><a href="klimat.html">Klimat <span class="sr-only">(current)</span></a></li>
+      </ul>
+
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      
+      <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -45,28 +57,27 @@
             <li><a href="#">Something else here</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
           </ul>
         </li>
       </ul>
-      <form class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>      
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+  
 <!-- Navbar end -->
-<div id="fakta">
-	<h1> Klimatet i Umeå</h1>
-  <p>Umeå har ett tempererat klimat, som dock gränsar till att vara subarktiskt eftersom dygnsmedeltemperaturen är över 10°C endast tre månader om året. På grund av närheten till havet har Umeå även ett kustlandklimat, vilket gör vintrar och somrar något mildare. Friska vindar blåser in från Kvarken vilket gör att kyleffekten bidrar till att kalla temperaturer känns kallare än vad de egentligen är.</p>
-  <img id="klimatBild" src="klimatUmea.png" alt="Tagen Från Wikipedia" href="https://sv.wikipedia.org/wiki/Ume%C3%A5#Klimat">
 
-</div>
+<div class="row" id="row1">
+  <div class="col-md-6">
 
+    <div id="fakta">
+    	<h1> Klimatet i Umeå</h1>
+      <p>Umeå har ett tempererat klimat, som dock gränsar till att vara subarktiskt eftersom dygnsmedeltemperaturen är över 10°C endast tre månader om året. På grund av närheten till havet har Umeå även ett kustlandklimat, vilket gör vintrar och somrar något mildare. Friska vindar blåser in från Kvarken vilket gör att kyleffekten bidrar till att kalla temperaturer känns kallare än vad de egentligen är.</p>
+      <img id="klimatBild" src="klimatUmea.png" alt="Tagen Från Wikipedia" href="https://sv.wikipedia.org/wiki/Ume%C3%A5#Klimat">
+    </div>
+  </div>
+
+
+<div class="col-md-6">
 <!-- Image Slider -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -118,10 +129,18 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<footer class="footer">
+</div>
+</div>
+
+
+
+    <footer class="footer">
       <div class="container">
         <p class="text-muted">&copy; Copyright 2015</p>
       </div>
     </footer>
+
+
+
 </body>
 </html>
