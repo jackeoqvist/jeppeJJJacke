@@ -85,4 +85,12 @@ var feeling = function(){
 		img.src = 'http://33.media.tumblr.com/tumblr_m9y2vaYRJ81r9yglbo1_r1_500.gif';
   		div.appendChild(img);
 	}
+
+	if (answer === "havel") {
+		var div = document.getElementById("demo");
+		var img = document.createElement('img');
+
+		img.src = 'https://38.media.tumblr.com/b0e9d28cc08fa308b53b951023ad4754/tumblr_n7gaukAhyg1sr72rzo1_400.gif';
+  		div.appendChild(img);
+	}
 };
