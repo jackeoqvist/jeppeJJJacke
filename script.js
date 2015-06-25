@@ -28,7 +28,7 @@ var feeling = function(){
 		var div = document.getElementById("iframe")
 		var iframe = document.createElement('iframe')
 	
-		iframe.src = "https://www.youtube.com/embed/B-N1yJyrQRY";
+		iframe.src = "https://www.youtube.com/embed/B-N1yJyrQRY?autoplay=1";
 		iframe.width = 500;
 		iframe.height = 500;
 		iframe.allowfullscreen = true;
@@ -41,7 +41,7 @@ var feeling = function(){
 		var div = document.getElementById("iframe")
 		var iframe = document.createElement('iframe')
 	
-		iframe.src = "https://www.youtube.com/embed/-1GadTfGFvU";
+		iframe.src = "https://www.youtube.com/embed/-1GadTfGFvU?autoplay=1";
 		iframe.width = 500;
 		iframe.height = 500;
 		iframe.allowfullscreen = true;
@@ -54,7 +54,7 @@ var feeling = function(){
 		var div = document.getElementById("iframe")
 		var iframe = document.createElement('iframe')
 	
-		iframe.src = "https://www.youtube.com/embed/kxopViU98Xo";
+		iframe.src = "https://www.youtube.com/embed/kxopViU98Xo?autoplay=1";
 		iframe.width = 500;
 		iframe.height = 500;
 		iframe.allowfullscreen = true;
@@ -70,7 +70,7 @@ var feeling = function(){
 		var div = document.getElementById("iframe")
 		var iframe = document.createElement('iframe')
 	
-		iframe.src = "https://www.youtube.com/embed/4kqbKEqzsAI";
+		iframe.src = "https://www.youtube.com/embed/4kqbKEqzsAI?autoplay=1";
 		iframe.width = 500;
 		iframe.height = 500;
 		iframe.allowfullscreen = true;
