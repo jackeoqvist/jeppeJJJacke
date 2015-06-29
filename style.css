@@ -13,10 +13,11 @@ font-family: 'Slabo 27px', serif, sans-serif;
 	background-color: rgba(0, 0, 0, 0.5); 
 	padding-left: 20px;
 	border-radius: 10px;
-	text-align: center;
+	text-align: left;
 	margin-left: 10px;
 	padding-right: 20px;
 	position: auto;
+	padding-top: 20px;
 }
 
 
