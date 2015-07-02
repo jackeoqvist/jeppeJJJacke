@@ -72,3 +72,11 @@ font-family: 'Slabo 27px', serif, sans-serif;
 h1 {
 	margin-top: 0px;
 }
+
+#demo {
+	padding-bottom: 30px;
+}
+
+#iframe {
+	padding-bottom: 30px;
+}
